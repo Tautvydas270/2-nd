@@ -31,6 +31,11 @@ body{
                 font-size: 20px;
                 text-decoration:none;
                 color: whitesmoke;
+
+
+            }
+            li a:hover{
+                background-color: cyan;
             }
 
     main{
@@ -60,4 +65,14 @@ body{
             background-color: rgba(1, 123, 145, 0.363);
             margin-left: 20px;
             padding: 5px 20px; 
+
+        }
+        button:hover {
+            background-color: cyan;
+        }
+
+        button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
         }
